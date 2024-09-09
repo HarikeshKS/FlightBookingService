@@ -1,0 +1,25 @@
+{
+  "name": "bookingservice",
+  "version": "1.0.0",
+  "description": "BookingService is responsible for handling all operations related to flight bookings within the airline management system. It manages creating, updating, and canceling flight reservations, ensuring that customer information and payment details are properly handled. This service interacts with the FlightandSearchService to check for available flights and seat availability, as well as the AuthService for verifying user credentials. The service will use MySQL for data storage and Node.js for handling API requests, ensuring a seamless booking experience for users.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx nodemon src/index.js"
+  },
+  "keywords": [
+    "Microservice",
+    "MVC",
+    "NodeJS"
+  ],
+  "author": "Harikesh Kumar Sharma",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "http-status-codes": "^2.3.0",
+    "sequelize": "^6.37.3",
+    "sequelize-cli": "^6.6.2"
+  }
+}
