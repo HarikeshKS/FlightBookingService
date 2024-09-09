@@ -1,0 +1,2 @@
+# Booking Service
+It is responsible for handling all operations related to flight bookings within the airline management system. It manages creating, updating, and canceling flight reservations, ensuring that customer information and payment details are properly handled. This service interacts with the FlightandSearchService to check for available flights and seat availability, as well as the AuthService for verifying user credentials. The service will use MySQL for data storage and Node.js for handling API requests, ensuring a seamless booking experience for users.
